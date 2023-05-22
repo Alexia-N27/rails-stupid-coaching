@@ -1,3 +1,13 @@
-<%= @question %>
-<%= @answer %>
-<%= link_to "Ask a new question", ask_path %>
+<h1 class="p-2">Stupid Coaching</h1>
+
+<div class="p-2">
+  <%= @question %>
+  <p><%= "-You" %></p>
+</div>
+
+<div class="p-2">
+  <%= @answer %>
+  <p><%= "-Your coach" %></p>
+</div>
+
+<p class="p-2"><%= link_to "Ask a new question", ask_path %></p>
